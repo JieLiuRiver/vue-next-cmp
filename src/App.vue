@@ -1,24 +1,18 @@
 <template>
-  <h1>hello vue-next cmp</h1>
+  <OverlayViews />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import OverlayViews from '@/views/OverlayDemo.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
+    OverlayViews
   }
 })
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
